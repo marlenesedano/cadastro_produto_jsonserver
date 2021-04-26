@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/cad_category.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Categorias</title>
+  </head>
+  <header>
+    <div class="container">
+      <div class="container">
+        
+        <img class="header-api" src="/assets/api.jpg" alt="api" />
+        <div class="menu-toggle">
+          <a href="http://127.0.0.1:5500/cad_products.html#"> Produtos</a>
+          <a href="http://127.0.0.1:5500/cad_category.html#">Categorias</a>
+          <a href="http://127.0.0.1:5500/index.html#">Home</a>
+
+        </div>
+      </div>
+  </header>
+  <body>
+   <div class="container-general">
+    <div class="container-form">
+      <form class="form-list">
+        <label for="name">Cadastrar Categoria</label>
+        <input id="input" class="name" type="text" />
+        
+        <div class="send">
+          <button type="submit" id="send">Enviar</button>
+        </div>
+        
+      </form>
+    </div>
+    <div class="container-body">
+      <div class="search">
+        <label for="search">Busca:</label>
+        <input id="search" onkeyup="search()" type="text" />
+      </div>
+      <div>
+        <table id="table" class="table-list">
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Excluir</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+   </div>
+  </body>
+  <footer>Desenvolvido por Marlene Sedano</footer>
+  <script src="/ query_cad_category.js"></script>
+</html>
