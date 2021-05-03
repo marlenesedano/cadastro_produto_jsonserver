@@ -39,4 +39,5 @@ function registerObject() {
 
 document.getElementById("send").addEventListener("click", () => {
   registerObject();
+  location.reload();
 });
