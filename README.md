@@ -5,7 +5,7 @@ Projeto de consumo de API onde é possivel cadastrar produtos e categorias e fil
 ## Projeto Consumo de API com Json Server
 
 
-## : rocket: Tecnologias
+### Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -34,7 +34,9 @@ Na tela abaixo é a tela de Categorias, onde é possivel também realizar a busc
 ```
 Para usar tem que baixar o pacote do Json no seguinte caminho: https://github.com/typicode/json-server.
 
-Ao dar o start no serviço, usar o banco de dados bd.json que esta também anexado no repositório. (vai mostrar um banco de dados ja com alguns produtos e categorias)
+Ao dar o start no serviço, usar o banco de dados bd.json que esta também anexado no repositório. (vai mostrar um banco de dados ja com alguns produtos e categorias).
+
+Para dar start no serviço ultilzar o comando: json-server --watch bd.json 
 
 
 
