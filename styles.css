@@ -75,7 +75,7 @@ a {
   margin: 30px auto;
 }
 
-#input{
+.input{
   margin: 5px 0;
   height: 20px;
   font-family: var(--font-main);
@@ -99,10 +99,16 @@ a {
   font-family: var(--font-main);
 }
 
+#category{
+  height: 25px;
+  font-family: var(--font-main);
+}
+
 .register{
   width: 500px;
   height: 20px;
   justify-content: center;
+  
 }
 
 .table-list {

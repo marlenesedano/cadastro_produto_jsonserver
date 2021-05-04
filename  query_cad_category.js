@@ -90,7 +90,8 @@ function getDelete(url) {
 
 function deleteObject(categoria_id) {
   url = "http://localhost:3000/categoria/" + categoria_id;
-  delete url;
+  // console.log(url);
+  getDelete(url);
 }
 
 function getPost(url, body) {
@@ -121,5 +122,5 @@ function registerObject() {
 
 document.getElementById("send").addEventListener("click", () => {
   registerObject();
-  location.reload();
+  window.location.reload();
 });

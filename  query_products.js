@@ -30,10 +30,7 @@ function createLine(produtos) {
   line.appendChild(tdId);
   line.appendChild(tdNome);
   line.appendChild(tdMarca);
-
   line.appendChild(tdExcluir);
-
-  // tdExcluir.style.cursor = "pointer";
 
   return line;
 }
@@ -96,7 +93,7 @@ function getDelete(url) {
 
 function deleteObject(produto_id) {
   url = "http://localhost:3000/produtos/" + produto_id;
-  delete url;
+  getDelete(url);
 }
 
 function getPost(url, body) {
