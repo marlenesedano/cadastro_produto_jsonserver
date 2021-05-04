@@ -4,9 +4,8 @@ Projeto de consumo de API onde é possivel cadastrar produtos e categorias e fil
 
 ## Projeto Consumo de API com Json Server
 
-Implementar
 
-## :rocket: Tecnologias
+## : rocket: Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
