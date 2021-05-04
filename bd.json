@@ -1,0 +1,54 @@
+{
+  "produtos": [
+    {
+      "nome": "Teclado",
+      "marca": "Redragon",
+      "preco": "150",
+      "categoria": "teclado",
+      "id": 4
+    },
+    {
+      "nome": "mouse gamer",
+      "marca": "Redragon",
+      "preco": "200",
+      "categoria": "Mouse",
+      "id": 5
+    },
+    {
+      "nome": "Fone Pichau",
+      "marca": "Pichau",
+      "preco": "60",
+      "categoria": "Fone de Ouvido",
+      "id": 6
+    },
+    {
+      "nome": "MI band 4",
+      "marca": "Xiaomi",
+      "preco": "300",
+      "categoria": "smartband",
+      "id": 7
+    }
+  ],
+  "categoria": [
+    {
+      "id": 1,
+      "nome": "mouse"
+    },
+    {
+      "id": 2,
+      "nome": "Fone de Ouvido"
+    },
+    {
+      "id": 3,
+      "nome": "Smartband"
+    },
+    {
+      "id": 4,
+      "nome": "Celular"
+    },
+    {
+      "id": 5,
+      "nome": "Teclado"
+    }
+  ]
+}
